@@ -21,7 +21,7 @@
                     <?php the_permalink(); ?>
 
                 </article>
-                <hr>
+                
                     
                 <?php endwhile; ?>
                 <?php endif; ?>
