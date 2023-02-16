@@ -1,0 +1,35 @@
+ul,
+ol {
+    margin-top: 0rem 0rem;
+    padding: 3px;
+    color: #555;
+    @media screen and (min-width: 700px) {
+        margin-top: 1rem .5rem;
+        padding: 10px;
+    }
+}
+
+ul {
+    list-style-type: square;
+    
+}
+
+ul li, 
+ol li {
+    margin: .5rem 0rem;
+}
+
+li > ol {}
+li > ul {}
+
+pre {
+
+    background-color : #555;
+    color : #eee;
+    overflow-x: scroll;
+}
+code {}
+
+strong{}
+
+hr {}

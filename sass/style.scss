@@ -1,7 +1,7 @@
 /*
-Theme Name: 4w4 Victor Desjardins
-Theme URI: https://github.com/victordesjardins3/2023-4w4-gr1
-Author: Victor Desjardins
+Theme Name: 4w4-gr1 Eddy martin
+Theme URI: https://github.com/eddytuto/2023-4w4-gr1
+Author: Eddy Martin
 Version: 1.0.0
 Author URI: https://eddytuto.sg-host.com/
 Description: Thème réalisé dans le cours 4W4
@@ -10,18 +10,20 @@ Tested up to: 6.1.1
 Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: 4w4-Victor Desjardins
+Text Domain: 4w4-gr1-Eddy-martin
 */
 
 @import "variable/dimension";
 @import "normalize/normalize";
-//@import "normalize/box-sizing";
+// @import "normalize/box-sizing";
 
 /* --------------------------------------------- base */
 @import "base/heading";
-//@import "base/espacement";
-//@import "base/lien";
-//@import "base/list";
+@import "base/markdown";
+// @import "base/espacement";
+// @import "base/lien";
+// @import "base/list";
 
 /* --------------------------------------------- composant */
-@import "composant/entete";
+ @import "composant/entete";
+ @import "composant/blocflex";
