@@ -401,6 +401,14 @@ pre {
   overflow-x: scroll;
 }
 
+ul li::before {
+  content: "-";
+  background: darkgoldenrod;
+  border-radius: 0.5rem;
+  padding-inline: 0.3rem;
+  margin-inline-end: 0.3rem;
+}
+
 /* --------------------------------------------- composant */
 .entete__nav {
   display: flex;
@@ -423,6 +431,13 @@ pre {
 }
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
+}
+.menu__entete .menu .menu-item::before {
+  content: "";
+  background: transparent;
+  border-radius: 0;
+  padding-inline: 0;
+  margin-inline-end: 0;
 }
 
 .blocflex {

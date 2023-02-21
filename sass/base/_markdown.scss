@@ -28,8 +28,21 @@ pre {
     color : #eee;
     overflow-x: scroll;
 }
+
+ul li::before {
+    content: "-";
+    background:darkgoldenrod;
+    border-radius: .5rem;
+    padding-inline: .3rem;
+    margin-inline-end: .3rem;
+}
+
 code {}
 
 strong{}
 
 hr {}
+
+blockquote {
+
+}

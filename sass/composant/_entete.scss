@@ -19,6 +19,7 @@
 .menu__entete{ // nav
 
     .menu { // ul
+            
             display : flex;
             list-style-type: none;
             justify-content: flex-end;
@@ -28,8 +29,17 @@
                 padding : 3px 5px;
             }
 
+            
         }
-
+        
+        .menu-item::before {
+            content: "";
+            background: transparent;
+            border-radius: 0;
+            padding-inline: 0;
+            margin-inline-end: 0;
+        }
+        
     }
 
 }
