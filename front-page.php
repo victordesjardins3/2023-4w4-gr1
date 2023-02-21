@@ -12,7 +12,7 @@
             <?php if(have_posts()):
                 while (have_posts()): the_post(); ?>
                 <article>
-                    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <h5><a href="<?php the_permalink(); ?>"><?= wp_trim_words(get_the_title(),4, " ... "); ?></a></h5>
                     <?php // get_the_excerpt() ?>
                     <hr>
                     
