@@ -34,10 +34,25 @@ h1 {
   h4,
   h5,
   h6 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Source Serif Pro", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     margin : .5rem 0;
+    color: goldenrod;
   }
   
+  h1 {
+    margin-left: 3rem;
+    color: goldenrod;
+    font-family: "Source Serif Pro" ;
+    margin-top: 4rem;
+  }
+
+  header h2 {
+    margin-left: 3rem;
+    color: goldenrod;
+    font-family: "Source Serif Pro" ;
+    margin-top: 4rem;
+  }
+
   p {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;

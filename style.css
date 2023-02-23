@@ -364,8 +364,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Source Serif Pro", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0.5rem 0;
+  color: goldenrod;
+}
+
+h1 {
+  margin-left: 3rem;
+  color: goldenrod;
+  font-family: "Source Serif Pro";
+  margin-top: 4rem;
+}
+
+header h2 {
+  margin-left: 3rem;
+  color: goldenrod;
+  font-family: "Source Serif Pro";
+  margin-top: 4rem;
 }
 
 p {
@@ -386,8 +401,12 @@ ol {
   }
 }
 
-ul {
-  list-style-type: square;
+main ul {
+  list-style-type: none;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgb(231, 231, 231);
+  border: 3px solid goldenrod;
 }
 
 ul li,
@@ -395,10 +414,22 @@ ol li {
   margin: 0.5rem 0rem;
 }
 
-pre {
+main pre {
   background-color: #555;
   color: #eee;
   overflow-x: scroll;
+  width: 20%;
+  margin: auto auto;
+  text-align: center;
+}
+
+main article pre {
+  width: 75%;
+  text-align: left;
+}
+
+ul li ul {
+  border: none;
 }
 
 ul li::before {
@@ -409,12 +440,50 @@ ul li::before {
   margin-inline-end: 0.3rem;
 }
 
+article h3 {
+  margin-left: 3rem;
+}
+
+article h2 {
+  margin-left: 3rem;
+  color: goldenrod;
+}
+
+main article p {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: rgb(231, 231, 231);
+  border: 3px solid goldenrod;
+}
+
+main section article p {
+  margin-left: 0;
+  color: black;
+  border: none;
+}
+
+body {
+  background-color: rgb(39, 39, 39);
+  font-family: "Source Sans Pro";
+}
+
+a:link {
+  color: rgb(127, 189, 34);
+}
+
+a:visited {
+  color: crimson;
+}
+
 /* --------------------------------------------- composant */
 .entete__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid black;
+}
+
+section {
+  margin: 2rem 2rem;
 }
 
 .site__titre {
@@ -429,6 +498,7 @@ ul li::before {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
+  font-size: 1.5rem;
 }
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
@@ -454,7 +524,7 @@ ul li::before {
   padding-left: 100px;
   margin: 5px;
   margin-bottom: 20px;
-  border: 2px solid white;
+  border: 3px solid goldenrod;
   border-radius: 20%;
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(231, 231, 231);
 }
