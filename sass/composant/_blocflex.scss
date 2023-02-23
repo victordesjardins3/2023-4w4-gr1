@@ -1,6 +1,6 @@
 .blocflex {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     // Cette déclaration sera meilleur quand min() sera mieux supporté
     // grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
     gap: 2rem;
@@ -13,7 +13,7 @@ article {
         padding-left: 100px;
         margin : 5px;
         margin-bottom: 20px;
-        border : 1px solid #aaa;
+        border : 2px solid white;
         border-radius: 20%;
         background-color: rgb(202, 202, 202);
     }

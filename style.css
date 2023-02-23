@@ -414,6 +414,7 @@ ul li::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid black;
 }
 
 .site__titre {
@@ -442,7 +443,7 @@ ul li::before {
 
 .blocflex {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   gap: 2rem;
   margin: 2rem;
 }
@@ -453,7 +454,7 @@ ul li::before {
   padding-left: 100px;
   margin: 5px;
   margin-bottom: 20px;
-  border: 1px solid #aaa;
+  border: 2px solid white;
   border-radius: 20%;
   background-color: rgb(202, 202, 202);
 }
