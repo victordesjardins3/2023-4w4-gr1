@@ -528,3 +528,42 @@ section {
   border-radius: 20%;
   background-color: rgb(231, 231, 231);
 }
+
+/* --------------------------------------------- layout */
+/** 
+Mise en page générale avec display:grid
+
+*/
+.site__entete {
+  grid-area: header;
+  padding: 1rem clamp(1rem, 3vw, 20rem);
+  background-color: antiquewhite;
+}
+
+.site__main {
+  grid-area: main;
+  background-color: rgb(157, 207, 221);
+}
+
+.site__footer {
+  grid-area: footer;
+  background-color: rgb(226, 174, 206);
+}
+
+.site__aside {
+  grid-area: aside;
+  padding: 1rem clamp(1rem, 3vw, 20rem);
+  background-color: rgb(185, 217, 174);
+}
+
+.site {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "header" "main" "footer" "aside";
+}
+@media screen and (min-width: 1000px) {
+  .site {
+    grid-template-columns: 20% auto;
+    grid-template-areas: "header header" "main main" "footer footer" "aside aside";
+  }
+}

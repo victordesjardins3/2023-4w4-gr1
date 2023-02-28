@@ -1,0 +1,47 @@
+/** 
+Mise en page générale avec display:grid
+
+*/
+
+.site__entete{
+    grid-area: header;
+    padding: 1rem clamp(1rem, 3vw, 20rem);
+    background-color: antiquewhite;
+}
+
+.site__main{
+    grid-area: main;
+    //padding: 1rem clamp(1rem, 3vw, 20rem);
+    background-color: rgb(157, 207, 221);
+}
+
+.site__footer{
+    grid-area: footer;
+    //padding: 1rem clamp(1rem, 3vw, 20rem);
+    background-color: rgb(226, 174, 206);
+}
+
+.site__aside{
+    grid-area: aside;
+    padding: 1rem clamp(1rem, 3vw, 20rem);
+    background-color: rgb(185, 217, 174);
+}
+
+.site{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+    "aside";
+    //row-gap: 50px;
+    @media screen and (min-width: 1000px) {
+        grid-template-columns: 20% auto;
+        grid-template-areas:
+            "header header"
+            "main main"
+            "footer footer"
+            "aside aside";
+    }
+}
