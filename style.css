@@ -517,7 +517,8 @@ section {
   gap: 2rem;
   margin: 2rem;
 }
-.blocflex article {
+
+.blocflex__article {
   flex: 1 0 200px;
   padding: 20px;
   padding-right: 100px;
@@ -527,6 +528,10 @@ section {
   border: 3px solid goldenrod;
   border-radius: 20%;
   background-color: rgb(231, 231, 231);
+}
+
+.blocflex__galerie {
+  flex: 1 0 100%;
 }
 
 /* --------------------------------------------- layout */

@@ -6,7 +6,9 @@
     gap: 2rem;
     margin: 2rem;
 
-article {
+}
+
+.blocflex__article {
         flex : 1 0 200px;
         padding : 20px;
         padding-right: 100px;
@@ -17,4 +19,7 @@ article {
         border-radius: 20%;
         background-color: rgb(231, 231, 231);
     }
-}
+
+.blocflex__galerie {
+        flex : 1 0 100%;
+    }
