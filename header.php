@@ -10,10 +10,11 @@
 </head>
 
 <?php 
+$nouvel_class="";
     if(is_front_page()){
-        $nouvel_Class = "no-aside";
+        $nouvel_class = "no-aside";
     }
-
+ 
 ?>
 <body class="site <?= $nouvel_class ?> ">
     <header class="site__entete">
