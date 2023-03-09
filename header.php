@@ -20,13 +20,15 @@ $nouvel_class="";
     <header class="site__entete">
         <section class="entete__nav">
             <?php the_custom_logo(); ?> 
-            <?php  wp_nav_menu(array( 
-                            "menu" => "entete",
-                            "container" => "nav",
-                            "container_class" => "menu__entete"
+            <div class = "menu__recherche">
+                <?php  wp_nav_menu(array( 
+                                "menu" => "entete",
+                                "container" => "nav",
+                                "container_class" => "menu__entete"
 
-                        )); ?>
-                <?= get_search_form(); ?>
+                            )); ?>
+                    <?= get_search_form(); ?>
+            </div>
         </section>
         <h1 class="site__titre"><a  href="<?= bloginfo('url'); ?>"><?= bloginfo('name'); ?></a></h1>
         <h2 class="site__description"><?= bloginfo('description'); ?></h2>
