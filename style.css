@@ -529,7 +529,7 @@ a:visited {
 .blocflex {
   display: block;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
   .blocflex {
     display: flex;
     justify-content: space-between;
@@ -558,6 +558,32 @@ a:visited {
   flex-wrap: nowrap;
   align-items: center;
   height: 3rem;
+}
+
+.footer__ensemble {
+  display: block;
+  text-align: center;
+  margin: auto auto;
+}
+@media screen and (min-width: 800px) {
+  .footer__ensemble {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0rem;
+  }
+}
+
+.footer__ensemble section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer__ensemble p {
+  font-size: 1.2em;
+}
+
+.footer__ensemble h3 {
+  font-size: 2em;
 }
 
 /* --------------------------------------------- layout */

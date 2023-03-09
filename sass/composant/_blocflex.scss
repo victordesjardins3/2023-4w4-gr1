@@ -1,7 +1,7 @@
 .blocflex {
     display: block;
 
-    @media screen and (min-width: $largeur__bureau) {
+    @media screen and (min-width: 800px) {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
