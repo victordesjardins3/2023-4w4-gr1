@@ -40,17 +40,30 @@ h1 {
   }
   
   h1 {
-    margin-left: 3rem;
-    color: goldenrod;
+
+    margin-left: 0rem;
     font-family: "Source Serif Pro" ;
+    text-align: center;
+    color: goldenrod;
+  
+    @media screen and (min-width:$largeur__bureau){
+    margin-left: 3rem;
     margin-top: 4rem;
+    text-align: left;
+    }
   }
 
   header h2 {
-    margin-left: 3rem;
-    color: goldenrod;
+
+    text-align: center;
     font-family: "Source Serif Pro" ;
+    color: goldenrod;
+
+    @media screen and (min-width:$largeur__bureau){
+    margin-left: 3rem;
     margin-top: 4rem;
+    text-align: left;
+    }
   }
 
   p {

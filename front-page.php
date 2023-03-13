@@ -7,7 +7,7 @@
 <?php get_header(); ?>
     <main class="site__main">
         <pre>front-page.php</pre>
-        <h1>Bienvenue sur 4W4</h1>
+        <h1>Bienvenue au Wordpress de 4W4</h1>
         <section class="blocflex">
             <?php if(have_posts()):
                 while (have_posts()): the_post(); 

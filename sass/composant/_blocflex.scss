@@ -1,7 +1,7 @@
 .blocflex {
     display: block;
 
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: $largeur__bureau) {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -11,6 +11,7 @@
 }
 
 .blocflex__article {
+        text-align: center;
         flex : 1 0 200px;
         padding : 20px;
         padding-right: 100px;
@@ -18,8 +19,13 @@
         margin : 5px;
         margin-bottom: 20px;
         border : 3px solid goldenrod;
-        border-radius: 20%;
+        border-radius: 25%;
         background-color: rgb(231, 231, 231);
+        margin: 2rem;
+
+        @media screen and (min-width: $largeur__bureau) {
+            text-align: left;
+        }
     }
 
 .blocflex__galerie {

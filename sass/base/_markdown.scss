@@ -3,7 +3,7 @@ ol {
     margin-top: 0rem 0rem;
     padding: 3px;
     color: #555;
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: $largeur__bureau) {
         margin-top: 1rem .5rem;
         padding: 10px;
     }
@@ -33,7 +33,7 @@ main pre {
     width: 20%;
     margin: auto auto;
     text-align: center;
-    
+    display: none;
 }
 
 main article pre {
@@ -65,19 +65,36 @@ blockquote {
 
 article h3 {
     margin-left: 3rem;
+
+    @media screen and (min-width:$largeur__bureau) {
+        margin-left: 0rem;
+    }
 }
 
 article h2 {
-    margin-left: 3rem;
-    color: goldenrod;
+    
+    margin-left: 0rem;
+
+    @media screen and (min-width:$largeur__bureau) {
+        margin-left: 3rem;
+        color: goldenrod;
+        
+    }
 }
 
 main article p {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    background-color: rgb(231, 231, 231);
+    
+    margin-left: 0rem;
+    margin-right: 0rem;
 
-    border: 3px solid goldenrod;
+    @media screen and (min-width:$largeur__bureau) {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        background-color: rgb(231, 231, 231);
+    
+        border: 3px solid goldenrod;
+        
+    }
 }
 
 main section article p {
