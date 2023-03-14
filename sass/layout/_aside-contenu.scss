@@ -61,3 +61,15 @@ Mise en page générale avec display:grid
         
     }
 }
+
+aside .menu-item::before {
+    content: "";
+    background: transparent;
+    border-radius: 0;
+    padding-inline: 0;
+    margin-inline-end: 0;
+} 
+
+aside li {
+    list-style-type: none;
+}

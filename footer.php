@@ -1,6 +1,18 @@
 <footer class="site__footer">
 
     <div class="footer__ensemble">
+
+    <?php the_custom_logo(); ?> 
+        
+    <section class="lienimportant">
+        <h3>Liens importants</h3>
+        <?php  wp_nav_menu(array( 
+                    "menu" => "entete",
+                    "container" => "nav",
+                    "container_class" => "menu__entete"
+
+                                )); ?>
+    </section>
     <section class="propostim">
 
         <h3>À propos du TIM</h3>
@@ -12,18 +24,11 @@
 
     <section class="reseaux">
         <h3>Réseaux sociaux</h3>
-        <p>Facebook</p>
-        <p>Instagram</p>
-        <p>Twitter</p>
-    </section>
-
-    <section class="college">
-
-        <h3>Collège de Maisonneuve</h3>
-        <p>Historique</p>
-        <p>Liste des programmes</p>
-        <p>Test d'orientation</p>
-
+        <div class="reseauxicons">
+        <p><img src="https://s2.svgbox.net/social.svg?ic=facebook&color=000" width="32" height="32"></p>
+        <p><img src="https://s2.svgbox.net/social.svg?ic=instagram&color=000" width="32" height="32"></p>
+        <p><img src="https://s2.svgbox.net/social.svg?ic=twitter&color=000" width="32" height="32"></p>
+        </div>                        
     </section>
 
     <section class="coordonnees">

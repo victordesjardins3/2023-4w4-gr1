@@ -8,6 +8,10 @@ wp_enqueue_style('4w4-gr1-principal', // id
         array(), // définir les dépendances
         filemtime(get_template_directory() . '/style.css'), // le calcul de la version du fichier css
         'all'); // media
+
+wp_enqueue_style("google_font",
+                "https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap",
+                false);
 }        
 
 add_action( 'wp_enqueue_scripts', 'enfiler_css' );  
@@ -28,6 +32,8 @@ add_theme_support( 'custom-logo', array(
     'height' => 150,
     'width'  => 150
 ) );
+
+// add_theme_support('custom-logo');
 
 /**
  * Modifie la requete principale de Wordpress avant qu'elle soit exécuté
@@ -59,7 +65,9 @@ function perso_menu_item_title($title, $item, $args) {
         // Remplacer 'nom_de_votre_menu' par l'identifiant de votre menu
         if($args->menu == 'cours') { // on filtre uniquement le menu «cours»
         // Modifier la longueur du titre en fonction de nos besoins
-        $title = wp_trim_words($title, 3, ' ... '); // à modifier pour le tp1
+        $sigle = substr($title, 4,3);
+        $title = substr($title, 7);
+        $title = "<code>" .$sigle. "</code>" . "<p>" . wp_trim_words($title, 2, ' ... ') . "</p>"; // à modifier pour le tp1
         }
         return $title;
         }

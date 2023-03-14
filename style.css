@@ -508,12 +508,20 @@ a:visited {
 /* --------------------------------------------- composant */
 .entete__nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+}
+@media screen and (min-width: 800px) {
+  .entete__nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .site__titre {
   font-size: clamp(1rem, 0.3864rem + 2.4545vw, 4.375rem);
+  font-family: "Source Code Pro", monospace;
 }
 .site__titre a {
   text-decoration: none;
@@ -533,20 +541,33 @@ a:visited {
 }
 
 /* ///////////////////////////////// menu__entete */
+.menu__entete {
+  transform: translateX(500px);
+  transition: transform 0.5s;
+}
+@media screen and (min-width: 800px) {
+  .menu__entete {
+    transform: translateX(0);
+  }
+}
 .menu__entete .menu {
   display: flex;
   flex-direction: column;
   list-style-type: none;
   justify-content: flex-end;
+  text-align: center;
 }
 @media screen and (min-width: 800px) {
   .menu__entete .menu {
     flex-direction: row;
     transform: translateX(0);
+    align-items: center;
   }
 }
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
+  display: block;
+  text-decoration: none;
 }
 .menu__entete .menu .menu-item::before {
   content: "";
@@ -554,6 +575,25 @@ a:visited {
   border-radius: 0;
   padding-inline: 0;
   margin-inline-end: 0;
+}
+
+/* --------------------------------------- bouton burger */
+.burger {
+  border: 1px solid #aaa;
+  display: block;
+}
+@media screen and (min-width: 800px) {
+  .burger {
+    display: none;
+  }
+}
+
+#chkBurger:checked ~ .menu__entete {
+  transform: translateX(-38px);
+}
+
+#chkBurger {
+  display: none;
 }
 
 .blocflex {
@@ -598,21 +638,64 @@ a:visited {
 }
 
 .footer__ensemble {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   margin: auto auto;
+  padding-top: 3rem;
 }
 @media screen and (min-width: 800px) {
   .footer__ensemble {
-    display: flex;
+    padding-top: 0rem;
+    flex-direction: row;
     justify-content: space-evenly;
     padding-left: 0rem;
   }
 }
 
+.lienimportant .menu__entete {
+  transform: translateX(0px);
+}
+
+.lienimportant .menu__entete .menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black 2px solid;
+  padding: 0;
+}
+
+.lienimportant .menu__entete .menu .menu-item a {
+  padding: 1px;
+}
+
+.reseaux {
+  height: 200%;
+  border: black 1px solid;
+}
+
+.reseaux .reseauxicons {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 80%;
+  margin: auto auto;
+}
+
+.reseaux .reseauxicons p {
+  margin: 0.3rem;
+}
+
 .footer__ensemble section {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 800px) {
+  .footer__ensemble section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .footer__ensemble p {
@@ -635,6 +718,41 @@ a:visited {
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+  }
+}
+
+.menu-cours-container .menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 800px) {
+  .menu-cours-container .menu {
+    flex-direction: column;
+  }
+}
+.menu-cours-container .menu .menu-item {
+  flex: 1 0 40px;
+}
+.menu-cours-container .menu .menu-item a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+@media screen and (min-width: 800px) {
+  .menu-cours-container .menu .menu-item a {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+}
+.menu-cours-container .menu .menu-item a p {
+  display: none;
+}
+@media screen and (min-width: 800px) {
+  .menu-cours-container .menu .menu-item a p {
+    display: block;
   }
 }
 
@@ -684,4 +802,16 @@ Mise en page générale avec display:grid
     grid-template-columns: auto;
     grid-template-areas: "header" "main" "footer";
   }
+}
+
+aside .menu-item::before {
+  content: "";
+  background: transparent;
+  border-radius: 0;
+  padding-inline: 0;
+  margin-inline-end: 0;
+}
+
+aside li {
+  list-style-type: none;
 }
