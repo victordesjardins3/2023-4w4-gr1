@@ -12,15 +12,21 @@
     }
 }
 
-
-
 .site__titre {
     font-size: clamp(1rem, 0.3864rem + 2.4545vw, 4.375rem);
     font-family: 'Source Code Pro', monospace;
+    font-size: 4rem;
 
     a {
         text-decoration: none;
     }
+}
+
+.site__description {
+    font-size: 3rem;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:cyan
 }
 
 .menu__recherche { // menu, recherche, bouton
@@ -62,6 +68,7 @@
                 padding : 3px 5px;
                 display: block;
                 text-decoration: none;
+                font-weight: bold;
             }
 
         }

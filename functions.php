@@ -33,7 +33,7 @@ add_theme_support( 'custom-logo', array(
     'width'  => 150
 ) );
 
-// add_theme_support('custom-logo');
+add_theme_support( 'custom-background' );
 
 /**
  * Modifie la requete principale de Wordpress avant qu'elle soit exécuté

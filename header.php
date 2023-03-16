@@ -16,10 +16,11 @@ $nouvel_class="";
     }
  
 ?>
-<body class="site <?= $nouvel_class ?> ">
+<body class="custom-background site <?= $nouvel_class ?> ">
     <header class="site__entete">
         <section class="entete__nav">
             <?php the_custom_logo(); ?> 
+            
             <div class = "menu__recherche">
                     <input type="checkbox" id="chkBurger">
                 <?php  wp_nav_menu(array( 
