@@ -737,6 +737,7 @@ a:visited {
 @media screen and (min-width: 800px) {
   .menu-cours-container .menu {
     flex-direction: column;
+    justify-content: flex-start;
   }
 }
 .menu-cours-container .menu .menu-item {
@@ -744,14 +745,14 @@ a:visited {
 }
 .menu-cours-container .menu .menu-item a {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  flex-direction: column;
   padding: 10px;
 }
 @media screen and (min-width: 800px) {
   .menu-cours-container .menu .menu-item a {
-    align-items: flex-start;
+    justify-content: flex-start;
     flex-wrap: nowrap;
   }
 }
@@ -762,9 +763,7 @@ a:visited {
   .menu-cours-container .menu .menu-item a p {
     display: block;
   }
-}
-
-/* --------------------------------------------- layout */
+} /* --------------------------------------------- layout */
 /** 
 Mise en page générale avec display:grid
 
@@ -848,6 +847,10 @@ aside li {
 
 #menu-cours li {
   background-color: rgb(231, 231, 231);
+}
+
+#menu-cours li a {
+  justify-content: center;
 }
 
 aside h3 {

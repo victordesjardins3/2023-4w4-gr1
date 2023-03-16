@@ -93,11 +93,19 @@ aside li {
     padding: 1rem;
     text-align: center;
     background-color: rgb(231, 231, 231);
+
 }
 
 #menu-cours li {
     background-color: rgb(231, 231, 231);
+    
 }
+
+#menu-cours li a {
+    justify-content: center;
+    
+}
+
 
 aside h3 {
     text-align: center;
