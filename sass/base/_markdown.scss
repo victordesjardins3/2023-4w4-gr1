@@ -64,7 +64,7 @@ blockquote {
 }
 
 article h3 {
-    margin-left: 3rem;
+    text-align: center;
 
     @media screen and (min-width:$largeur__bureau) {
         margin-left: 0rem;
@@ -86,12 +86,13 @@ main article p {
     
     margin-left: 0rem;
     margin-right: 0rem;
+    padding: 2rem;
 
     @media screen and (min-width:$largeur__bureau) {
         margin-left: 5rem;
         margin-right: 5rem;
         background-color: rgb(231, 231, 231);
-    
+        padding: 0rem;
         border: 3px solid goldenrod;
         
     }
