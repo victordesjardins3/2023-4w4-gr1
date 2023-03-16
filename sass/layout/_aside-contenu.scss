@@ -12,19 +12,19 @@ Mise en page générale avec display:grid
 .site__main{
     grid-area: main;
     //padding: 1rem clamp(1rem, 3vw, 20rem);
-    background-color: rgb(157, 207, 221);
+    background-color: rgb(56, 56, 56);
 }
 
 .site__footer{
     grid-area: footer;
     //padding: 1rem clamp(1rem, 3vw, 20rem);
-    background-color: rgb(226, 174, 206);
+    background-color: rgb(159, 159, 159);
 }
 
 .site__aside{
     grid-area: aside;
   
-    background-color: rgb(185, 217, 174);
+    background-color: rgb(159, 159, 159);
 }
 
 .site{

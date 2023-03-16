@@ -36,7 +36,7 @@ h1 {
   h6 {
     font-family: "Source Serif Pro", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     margin : .5rem 0;
-    color: goldenrod;
+    color: rgb(0, 222, 222);
   }
   
   h1 {
@@ -44,7 +44,7 @@ h1 {
     margin-left: 0rem;
     font-family: "Source Serif Pro" ;
     text-align: center;
-    color: goldenrod;
+    color: Cyan;
   
     @media screen and (min-width:$largeur__bureau){
     margin-left: 3rem;

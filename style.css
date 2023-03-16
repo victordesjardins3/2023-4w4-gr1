@@ -366,14 +366,14 @@ h5,
 h6 {
   font-family: "Source Serif Pro", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0.5rem 0;
-  color: goldenrod;
+  color: rgb(0, 222, 222);
 }
 
 h1 {
   margin-left: 0rem;
   font-family: "Source Serif Pro";
   text-align: center;
-  color: goldenrod;
+  color: Cyan;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -484,7 +484,7 @@ main article p {
     margin-right: 5rem;
     background-color: rgb(231, 231, 231);
     padding: 0rem;
-    border: 3px solid goldenrod;
+    border: 3px solid rgb(0, 222, 222);
   }
 }
 
@@ -500,7 +500,7 @@ body {
 }
 
 a:link {
-  color: cyan;
+  color: blue;
 }
 
 a:visited {
@@ -626,8 +626,7 @@ a:visited {
   padding-left: 100px;
   margin: 5px;
   margin-bottom: 20px;
-  border: 3px solid goldenrod;
-  border-radius: 25%;
+  border: 3px solid rgb(0, 222, 222);
   background-color: rgb(231, 231, 231);
   margin: 2rem;
 }
@@ -780,17 +779,17 @@ Mise en page générale avec display:grid
 
 .site__main {
   grid-area: main;
-  background-color: rgb(157, 207, 221);
+  background-color: rgb(56, 56, 56);
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: rgb(226, 174, 206);
+  background-color: rgb(159, 159, 159);
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: rgb(185, 217, 174);
+  background-color: rgb(159, 159, 159);
 }
 
 .site {
