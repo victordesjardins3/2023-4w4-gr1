@@ -419,7 +419,7 @@ main ul {
   margin-left: 5rem;
   margin-right: 5rem;
   background-color: rgb(231, 231, 231);
-  border: 3px solid goldenrod;
+  border: 3px solid rgb(0, 230, 230);
 }
 
 ul li,
@@ -448,7 +448,7 @@ ul li ul {
 
 ul li::before {
   content: "-";
-  background: darkgoldenrod;
+  background: rgb(0, 223, 223);
   border-radius: 0.5rem;
   padding-inline: 0.3rem;
   margin-inline-end: 0.3rem;
@@ -469,7 +469,7 @@ article h2 {
 @media screen and (min-width: 800px) {
   article h2 {
     margin-left: 3rem;
-    color: goldenrod;
+    color: rgb(0, 229, 229);
   }
 }
 
