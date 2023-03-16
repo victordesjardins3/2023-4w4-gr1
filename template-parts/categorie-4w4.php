@@ -4,7 +4,10 @@
  */
 $titre = get_the_title();
 // retirer le premier 0 du titre d'article de catégorie 4w4
-//if (substr($titre, 0, 1) == '0') {} ...
+if (substr($titre, 0, 1) == '0') {
+    $titre = substr($titre, 3);
+} 
+
 ?>
 
 <article class="blocflex__article">

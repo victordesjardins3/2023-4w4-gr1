@@ -73,3 +73,32 @@ aside .menu-item::before {
 aside li {
     list-style-type: none;
 }
+
+.site__aside .menu-item {
+    border: rgb(0, 225, 225) 2px solid;
+    margin: 1rem;
+}
+
+#menu-4w4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: $largeur__bureau) {
+        flex-direction: column;
+    }
+}
+
+#menu-4w4 li {
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+}
+
+#menu-cours li {
+    background-color: rgb(231, 231, 231);
+}
+
+aside h3 {
+    text-align: center;
+}
