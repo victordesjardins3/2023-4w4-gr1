@@ -5,7 +5,7 @@
 $titre = get_the_title();
 $sigle = substr($titre, 0 , 7);
 $titre_long = substr($titre, 7, -5);
-$duree = substr($titre, -5);
+$duree = substr($titre, -6);
 ?>
 
 <article class="blocflex__article">
