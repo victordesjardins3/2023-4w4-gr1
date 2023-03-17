@@ -515,6 +515,7 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 1.2rem;
 }
 @media screen and (min-width: 800px) {
   .entete__nav {
@@ -544,7 +545,7 @@ a:visited {
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-end;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 @media screen and (min-width: 800px) {
   .menu__recherche {
@@ -608,6 +609,14 @@ a:visited {
 
 #chkBurger {
   display: none;
+}
+
+.custom-logo-link img {
+  transition: scale 0.5s ease-in-out;
+}
+
+.custom-logo-link img:hover {
+  scale: 1.2;
 }
 
 .blocflex {
