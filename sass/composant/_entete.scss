@@ -64,6 +64,10 @@
             }
         .menu-item { // li
 
+            background-color: rgb(231, 231, 231);
+            border: rgb(0, 227, 227) 2px solid;
+            margin: 5px;
+            transition: scale 0.5s ease-in-out;
             a{
                 padding : 3px 5px;
                 display: block;
@@ -72,6 +76,11 @@
             }
 
         }
+
+        .menu-item:hover {
+            scale: 1.1;
+        }
+
         .menu-item::before {
             content: "";
             background: transparent;

@@ -93,12 +93,20 @@ aside li {
     padding: 1rem;
     text-align: center;
     background-color: rgb(231, 231, 231);
+    transition: scale 0.5s ease-in-out;
+}
 
+#menu-4w4 li:hover {
+    scale: 1.15;
 }
 
 #menu-cours li {
     background-color: rgb(231, 231, 231);
-    
+    transition: scale 0.5s ease-in-out;
+}
+
+#menu-cours li:hover {
+    scale: 1.15;
 }
 
 #menu-cours li a {

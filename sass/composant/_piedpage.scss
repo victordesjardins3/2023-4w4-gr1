@@ -46,6 +46,15 @@
     margin: auto auto;
 }
 
+.reseaux .reseauxicons img {
+    transition: scale 0.5s ease-in-out;
+    
+}
+
+.reseaux .reseauxicons img:hover {
+    scale: 1.3;
+}
+
 .reseaux .reseauxicons p {
     margin: 0.3rem;
     
@@ -68,4 +77,10 @@
 
 .footer__ensemble h3 {
     font-size: 2em;
+}
+
+.site__footer .footer__ensemble .lienimportant .menu-item {
+    background: transparent;
+    border: none;
+    
 }
