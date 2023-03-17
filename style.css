@@ -427,6 +427,10 @@ ol li {
   margin: 0.5rem 0rem;
 }
 
+.pageprincipalepre {
+  display: none;
+}
+
 main pre {
   background-color: #555;
   color: #eee;
