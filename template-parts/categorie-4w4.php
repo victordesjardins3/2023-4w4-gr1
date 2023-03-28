@@ -16,3 +16,10 @@ if (substr($titre, 0, 1) == '0') {
     <p><?= wp_trim_words(get_the_excerpt(), 15) ?></p>
   
 </article>
+
+<?php 
+
+    // the_excerpt() // le résumé du post
+    // the_content() // affiche le contenu complet du post
+
+?>
