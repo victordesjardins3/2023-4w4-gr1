@@ -5,7 +5,7 @@
 $titre = get_the_title();
 // retirer le premier 0 du titre d'article de catégorie 4w4
 if (substr($titre, 0, 1) == '0') {
-    $titre = substr($titre, 3);
+    $titre = substr($titre, 1);
 } 
 
 ?>
@@ -19,7 +19,7 @@ if (substr($titre, 0, 1) == '0') {
 
 <?php 
 
-    // the_excerpt() // le résumé du post
-    // the_content() // affiche le contenu complet du post
+    // the_excerpt() // echo du résumé post
+    // the_content() // echo le contenu complet du post
 
 ?>

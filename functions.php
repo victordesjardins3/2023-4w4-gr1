@@ -69,6 +69,13 @@ function perso_menu_item_title($title, $item, $args) {
         $title = substr($title, 7);
         $title = "<code>" .$sigle. "</code>" . "<p>" . wp_trim_words($title, 2, ' ... ') . "</p>"; // à modifier pour le tp1
         }
+
+        if($args->menu == '4w4') {
+                if (substr($title, 0, 1) == '0') {
+                $titre = substr($title, 1); 
+                }
+        }
+
         return $title;
         }
         add_filter('nav_menu_item_title', 'perso_menu_item_title', 10, 4);
