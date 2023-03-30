@@ -6,12 +6,13 @@
 
 <?php get_header(); ?>
     <main class="site__main">
-        <pre>404.php</pre>
+        <pre class="nompagepre">404.php</pre>
         <div class="erreur">
             <h1>Erreur 404</h1>
-            <p>Vous avez accédez à un page qui n'existe pas ou une erreur s'est produite lors de l'affichage!
-            <br>Veuillez revenir en arrière ou sélectionner une page existante.
-            </p>
+            <p>Page introuvable, vous pouvez tenter une recherche</p>
+            <?= get_search_form(); ?>
+            <p>Nos choix de cours</p>
+            <p>Les notes de cours</p>
         </div>
     </main>
     
