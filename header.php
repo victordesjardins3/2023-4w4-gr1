@@ -15,6 +15,9 @@ $nouvel_class="";
         $nouvel_class = "no-aside";
     }
  
+    if(is_404()){
+        $nouvel_class = "no-aside";
+    }
 ?>
 <body class="custom-background site <?= $nouvel_class ?> ">
     <header class="site__entete">

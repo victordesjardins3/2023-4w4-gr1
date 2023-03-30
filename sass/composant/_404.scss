@@ -7,10 +7,23 @@
     margin-top: 2rem;
 
     @media screen and (min-width:$largeur__bureau) {
-        display: flex;
+        display: block;
         justify-content: space-evenly;
         align-items: center;
         height: 100%;
         
     }
+}
+
+.erreur h1 {
+    text-align: center;
+}
+
+#404__erreur {
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.erreur ul {
+    display: flex;
+    flex: wrap;
 }
