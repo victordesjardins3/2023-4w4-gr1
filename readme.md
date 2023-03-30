@@ -3,24 +3,30 @@
 ### Auteur : Victor Desjardins
 
 #### Objectifs
-- Le design général permettra de mettre en valeur le progamme TIM du collège de Maisonneuve
-- Continuer de faire progresser le thème
-- Déployer le projet sur le serveur Siteground 
-- Un pied de page
-- Un design de thème amélioré avec Sass et PHP
-- Amélioration de l'affichage produit par les modèles:
-    - front-page.php
-    - single.php
-    - category.php
-    - search.php
-    - header.php
-    - footer.php
-- Une mise en page entièrement adaptative
-- S'inspirer des sites:
-    - https://www.scrum.org/
-    - https://cfe.dev/
-- 20 commits sur TP1 de GitHub
+- Adapter le modèle 404.php pour reproduire la maquette incluse avec le devis
 
+Description et barème
+
+    Contenu  (13 points)
+        -	Titre principal (1 point)
+        -	Sous-titre et texte  (1 point)
+        -	Une image en arrière plan avec filtre opaque (1 point)
+        -	Formulaire de recherche fonctionnel et bien reproduit comme sur la maquette  (3 points)
+        -	Le menu wp « cours »  (2 points)
+        -	Le menu wp « note-4w4 » (2 points)
+        -	La zone aside n'apparaît pas dans cette page (3 points)
+    Caractéristiques (4 points
+        -	La page s'adapte à différentes largeurs d'écran (2 points)
+        -	La page reproduit fidèlement la maquette (2 points)
+    Git (3 points)
+        -	Création de 5 commits. Les commit devront être étalé sur l’ensemble de la durée de l’épreuve (3 heures)
+        -	La branche « intra » devra être crée dès le début de l’épreuve, tous es commits seront contenu dans cette branche
+        -	Chaque commit devra contenir un message décrivant simplement l’étape réalisé
+        -	La branche « intra » contiendra un readme.md avec l’information suivante :
+        -	Titre
+        -	Auteur
+        -	Courte description
+        -	Lien vers votre site siteground
 
 #### Liens de référence
 - Site sur le serveur Web distant **siteground**
