@@ -3,7 +3,7 @@
     <div class="footer__ensemble">
 
     <?php the_custom_logo(); ?> 
-        
+
     <section class="lienimportant">
         <h3>Liens importants</h3>
         <?php  wp_nav_menu(array( 
@@ -40,5 +40,22 @@
 
     </div>
 
+    <section class="footer__col">
+        <div class="sidebar">
+            <?php dynamic_sidebar( 'footer_1' ); ?>
+        </div>
+    </section>
+
+    <section class="footer__col">
+        <div class="sidebar">
+            <?php dynamic_sidebar( 'footer_2' ); ?>
+        </div>
+    </section>
+
+    <section class="footer__col">
+        <div class="sidebar">
+            <?php dynamic_sidebar( 'footer_3' ); ?>
+        </div>
+    </section>
 </footer>
     <?php wp_footer(); ?>
