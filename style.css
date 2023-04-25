@@ -764,6 +764,7 @@ a:visited {
   .widget {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
   }
 }
 
