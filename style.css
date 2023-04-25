@@ -754,6 +754,11 @@ a:visited {
   border: none;
 }
 
+.widget {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .erreur {
   display: block;
   text-align: center;
