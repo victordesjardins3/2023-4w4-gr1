@@ -755,8 +755,20 @@ a:visited {
 }
 
 .widget {
-  display: flex;
-  justify-content: space-evenly;
+  display: block;
+  text-align: center;
+  margin: auto auto;
+  width: 80%;
+}
+@media screen and (min-width: 800px) {
+  .widget {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.widget section {
+  margin-bottom: 3rem;
 }
 
 .wp-element-caption {
