@@ -759,6 +759,13 @@ a:visited {
   justify-content: space-evenly;
 }
 
+.wp-element-caption {
+  margin: auto auto;
+  text-align: center;
+  width: 80%;
+  padding: 0.5rem;
+}
+
 .erreur {
   display: block;
   text-align: center;
