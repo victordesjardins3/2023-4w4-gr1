@@ -636,6 +636,7 @@ a:visited {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    min-height: 100vh;
   }
 }
 
@@ -802,7 +803,21 @@ a:visited {
   .menu-cours-container .menu .menu-item a p {
     display: block;
   }
-} /* --------------------------------------------- layout */
+}
+
+.menu-evenement-container .menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-evenement-container .menu .menu-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #aaa;
+  height: 100px;
+  margin: 1rem;
+}
+
+/* --------------------------------------------- layout */
 /** 
 Mise en page générale avec display:grid
 
