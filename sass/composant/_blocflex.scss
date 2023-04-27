@@ -36,3 +36,14 @@
 .blocflex__galerie {
         flex : 1 0 100%;
     }
+
+.blocflex__figure {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    img {
+        display: block;
+        width: 150px;
+    }
+}

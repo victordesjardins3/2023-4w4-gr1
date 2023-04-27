@@ -667,6 +667,16 @@ a:visited {
   flex: 1 0 100%;
 }
 
+.blocflex__figure {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.blocflex__figure img {
+  display: block;
+  width: 150px;
+}
+
 .recherche_section {
   display: flex;
   flex-wrap: nowrap;
@@ -820,6 +830,14 @@ a:visited {
   border: 1px solid #aaa;
   height: 100px;
   margin: 1rem;
+}
+
+.article__single h3 {
+  display: flex;
+  align-items: center;
+}
+.article__single h3 img {
+  margin: 5px;
 }
 
 /* --------------------------------------------- layout */

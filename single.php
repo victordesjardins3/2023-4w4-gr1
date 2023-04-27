@@ -10,8 +10,8 @@
         <h1>Bienvenue sur 4W4</h1>
     <?php if(have_posts()):
             while (have_posts()): the_post(); ?>
-            <article>
-                <h3><?php the_title(); ?></h3>
+            <article class="article__single">
+                <h3> <?php the_post_thumbnail('medium'); ?> <?php the_title(); ?></h3>
                 <?php the_content(); ?>
             </article>
             <hr>
