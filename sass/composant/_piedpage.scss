@@ -87,8 +87,34 @@
 
 .widget {
 
-    
-    display: flex;
-    justify-content: space-evenly;
+    display: block;
+    text-align: center;
+    margin: auto auto;
+    width: 80%;
+
+    @media screen and (min-width:$largeur__bureau){
+        
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        
+    }
+
+}
+
+.widget section {
+    margin-bottom: 3rem;
+}
+
+.wp-element-caption {
+    margin: auto auto;
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.wp-block-embed__wrapper {
+    border: 3px solid rgb(231, 231, 231);
 }
 

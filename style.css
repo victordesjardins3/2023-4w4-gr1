@@ -765,8 +765,33 @@ a:visited {
 }
 
 .widget {
-  display: flex;
-  justify-content: space-evenly;
+  display: block;
+  text-align: center;
+  margin: auto auto;
+  width: 80%;
+}
+@media screen and (min-width: 800px) {
+  .widget {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+.widget section {
+  margin-bottom: 3rem;
+}
+
+.wp-element-caption {
+  margin: auto auto;
+  text-align: center;
+  border: 1px solid rgb(231, 231, 231);
+  width: 80%;
+  padding: 0.5rem;
+}
+
+.wp-block-embed__wrapper {
+  border: 3px solid rgb(231, 231, 231);
 }
 
 .erreur {
@@ -830,6 +855,24 @@ a:visited {
   border: 1px solid #aaa;
   height: 100px;
   margin: 1rem;
+}
+.menu-evenement-container .menu .menu-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.menu-evenement-container .menu .menu-item a .title {
+  font-size: 1.5rem;
+}
+.menu-evenement-container .menu .menu-item a .description {
+  font-size: 0.8rem;
+}
+.menu-evenement-container .menu .menu-item a .menu-thumbnail {
+  display: block;
+  width: 150px;
+  height: 150px;
 }
 
 .article__single h3 {
