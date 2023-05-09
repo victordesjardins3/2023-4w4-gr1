@@ -118,3 +118,25 @@
     border: 3px solid rgb(231, 231, 231);
 }
 
+.widgetimage {
+
+    display: block;
+    text-align: center;
+    margin: auto auto;
+    width: 80%;
+    margin-top: 2rem;
+
+    @media screen and (min-width:$largeur__bureau){
+        
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        
+    }
+
+}
+
+.widgetimage img {
+    width: 66%;
+}
+
