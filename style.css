@@ -764,14 +764,14 @@ a:visited {
   border: none;
 }
 
-.widget {
+.widgetvideo {
   display: block;
   text-align: center;
   margin: auto auto;
   width: 80%;
 }
 @media screen and (min-width: 800px) {
-  .widget {
+  .widgetvideo {
     display: flex;
     justify-content: space-evenly;
     width: 100%;

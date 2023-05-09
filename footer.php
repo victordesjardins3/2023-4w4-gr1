@@ -40,7 +40,7 @@
 
     </div>
 
-    <div class="widget">
+    <div class="widgetvideo">
 
         <section class="footer__col">
             <div class="sidebar">
@@ -60,7 +60,20 @@
             </div>
         </section>
 
+        
+    </div>
+    
+    <div class="widget2">
+
+        <section class="footer__col">
+            <div class="sidebar">
+                <?php dynamic_sidebar( 'footer_4' ); ?>
+            </div>
+        </section>
+
     </div>
 
+    
+    
 </footer>
     <?php wp_footer(); ?>
