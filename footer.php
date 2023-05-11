@@ -40,7 +40,7 @@
 
     </div>
 
-    <div class="widgetvideo">
+    <!-- <div class="widgetvideo">
 
         <section class="footer__col">
             <div class="sidebar">
@@ -59,7 +59,7 @@
                 <?php dynamic_sidebar( 'footer_3' ); ?>
             </div>
         </section>
-
+        -->
         
     </div>
     
@@ -68,12 +68,6 @@
         <section class="footer__col">
             <div class="sidebar">
                 <?php dynamic_sidebar( 'footer_5' ); ?>
-            </div>
-        </section>
-
-        <section class="footer__col">
-            <div class="sidebar">
-                <?php dynamic_sidebar( 'footer_6' ); ?>
             </div>
         </section>
 
