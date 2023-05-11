@@ -872,13 +872,14 @@ a:visited {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  flex: 4 0 400%;
 }
 .menu-evenement-container .menu .menu-item {
   display: flex;
   flex-direction: column;
   border: 1px solid #aaa;
   height: 100px;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 .menu-evenement-container .menu .menu-item a {
   display: flex;
@@ -897,6 +898,30 @@ a:visited {
   display: block;
   width: 150px;
   height: 150px;
+}
+
+#menu-evenement {
+  height: 60%;
+  background-color: transparent;
+}
+
+#menu-evenement img {
+  margin-top: 2rem;
+}
+
+#menu-evenement li::before {
+  content: "";
+  background: transparent;
+  border-radius: 0;
+  padding-inline: 0;
+  margin-inline-end: 0;
+}
+
+#menu-evenement li {
+  height: 45%;
+  padding: 0.5rem;
+  background-color: rgb(231, 231, 231);
+  border: 2px solid rgb(0, 230, 230);
 }
 
 .article__single h3 {
