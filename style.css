@@ -787,8 +787,6 @@ a:visited {
 .wp-element-caption {
   margin: auto auto;
   text-align: center;
-  border: 1px solid rgb(231, 231, 231);
-  width: 80%;
   padding: 0.5rem;
 }
 
@@ -801,19 +799,22 @@ a:visited {
   display: block;
   text-align: center;
   margin: auto auto;
-  width: 80%;
+  width: 90%;
   margin-top: 2rem;
 }
 @media screen and (min-width: 800px) {
   .widgetimage {
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
+    width: 90%;
   }
 }
 
-.widgetimage img {
-  width: 66%;
+.widgetcitation {
+  text-align: center;
+  margin: auto auto;
+  margin-bottom: 2rem;
+  width: 50%;
 }
 
 .erreur {
