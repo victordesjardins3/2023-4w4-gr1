@@ -686,6 +686,7 @@ a:visited {
 @media screen and (min-width: 800px) {
   .wp-block-gallery.has-nested-images.columns-6 figure.wp-block-image:not(#individual-image) {
     width: 10%;
+    flex: 1 0 200px;
   }
 }
 
