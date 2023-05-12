@@ -57,7 +57,7 @@
 }
 
 .wp-block-gallery.has-nested-images.columns-6 figure.wp-block-image:not(#individual-image) {
-        width: 75%;
+        width: 60%;
 
     @media screen and (min-width: $largeur__bureau) {
         width: 10%;
@@ -65,6 +65,14 @@
     }
 }
 
+.wp-block-gallery.has-nested-images.columns-4 figure.wp-block-image:not(#individual-image) {
+    width: 65%;
+
+    @media screen and (min-width: $largeur__bureau) {
+        width: 10%;
+        flex: 1 0 350px;
+    }
+}
 
 .blocflex__figure {
     display: flex;
