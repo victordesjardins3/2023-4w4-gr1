@@ -1,25 +1,22 @@
-# TP1
+# TP2
 ## 4W4-Conception d'interfaces et développement Web
 ### Auteur : Victor Desjardins
+#### Compte pour 20% de la note finale
 
-#### Objectifs
-- Le design général permettra de mettre en valeur le progamme TIM du collège de Maisonneuve
-- Continuer de faire progresser le thème
-- Déployer le projet sur le serveur Siteground 
-- Un pied de page
-- Un design de thème amélioré avec Sass et PHP
-- Amélioration de l'affichage produit par les modèles:
+##### Objectifs
+- Les éléments suivant doivent être modifiés, améliorés et/ou intégrés ;
     - front-page.php
-    - single.php
-    - category.php
-    - search.php
-    - header.php
-    - footer.php
-- Une mise en page entièrement adaptative
-- S'inspirer des sites:
-    - https://www.scrum.org/
-    - https://cfe.dev/
+    - sidebar
+    - footer
+    - affichage mobile
+    - thème général
+    - carrousel
+    - modèle category-cours doit synthétiser l'offre de cours
+    - utiliser des images mise-en-avant et fonction the_posts_thumbnail()
+    - produire des nouveaux modèles et templates
+    
 - 20 commits sur TP1 de GitHub
+- Déploiment du site sur SiteGround
 
 
 #### Liens de référence
