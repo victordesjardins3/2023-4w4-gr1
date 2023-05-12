@@ -43,8 +43,8 @@
 
 /* ///////////////////////////////// menu__entete */
 .menu__entete{ // nav
-    transform: translateX(500px);
-    transition: transform .5s;
+    opacity: 0%;
+    transition: opacity .5s;
     @media screen and (min-width: $largeur__bureau) {
         // position : static;
         transform: translateX(0); 
@@ -104,7 +104,8 @@
 
 } 
 #chkBurger:checked ~ .menu__entete {
-    transform : translateX(-38px);
+    opacity: 100%;
+    
 }
 
 #chkBurger {

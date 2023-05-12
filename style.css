@@ -556,8 +556,8 @@ a:visited {
 
 /* ///////////////////////////////// menu__entete */
 .menu__entete {
-  transform: translateX(500px);
-  transition: transform 0.5s;
+  opacity: 0%;
+  transition: opacity 0.5s;
 }
 @media screen and (min-width: 800px) {
   .menu__entete {
@@ -613,7 +613,7 @@ a:visited {
 }
 
 #chkBurger:checked ~ .menu__entete {
-  transform: translateX(-38px);
+  opacity: 100%;
 }
 
 #chkBurger {
