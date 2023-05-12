@@ -558,10 +558,12 @@ a:visited {
 .menu__entete {
   opacity: 0%;
   transition: opacity 0.5s;
+  margin-right: 1.5rem;
 }
 @media screen and (min-width: 800px) {
   .menu__entete {
-    transform: translateX(0);
+    opacity: 100%;
+    margin-right: 0;
   }
 }
 .menu__entete .menu {
@@ -735,7 +737,8 @@ a:visited {
 }
 
 .lienimportant .menu__entete {
-  transform: translateX(0px);
+  opacity: 100%;
+  margin-right: 0;
 }
 
 .lienimportant .menu__entete .menu {

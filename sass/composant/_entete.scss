@@ -45,9 +45,12 @@
 .menu__entete{ // nav
     opacity: 0%;
     transition: opacity .5s;
+    margin-right: 1.5rem;
+
     @media screen and (min-width: $largeur__bureau) {
         // position : static;
-        transform: translateX(0); 
+        opacity: 100%;
+        margin-right: 0;
     }
     .menu { // ul
             display : flex;
