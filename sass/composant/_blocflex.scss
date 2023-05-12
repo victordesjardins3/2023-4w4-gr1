@@ -34,8 +34,32 @@
 }
 
 .blocflex__galerie {
-        flex : 1 0 100%;
+    
+    
+    
+    flex : 1 0 100%;
+        
+    border: red 1px solid;
+        
     }
+
+.galerie {
+    display: flex;
+    flex-direction: column;
+    
+    border: green 1px solid;
+    align-self: center;
+    
+
+    @media screen and (min-width: $largeur__bureau) {
+        flex-direction: row;
+    }
+}
+
+.blockflex__galerie .wp-block-gallery .galerie img {
+    width: 150%;
+}
+
 
 .blocflex__figure {
     display: flex;
