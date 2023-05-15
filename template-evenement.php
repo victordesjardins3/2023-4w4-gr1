@@ -16,7 +16,7 @@ if ( have_posts() ) : the_post(); ?>
 <p>L'adresse de l'evénement: <?php the_field('adresse'); ?></p>
 <p>La date et l'heure de l'événement: <?php the_field('date_et_heure'); ?></p>
 <p>Organisateur de l'événement: <?php the_field('organisateur'); ?></p>
-   
+<p>Sigle du cours: <?php the_field('sigle'); ?></p>  
 <?php endif;?>
 </main><!-- #main -->
 <?php
