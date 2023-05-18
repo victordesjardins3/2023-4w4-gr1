@@ -18,20 +18,32 @@
                     
 
             )); ?>
+
+        </section>
+
+        <section class=bloc__viewport>
+
+        <h2>Notre mission</h2>
+
+        <?php wp_nav_menu(array(
+            "menu"=>"bloc-archive",
+            "container"=>"nav"
+        )); ?>
+
         </section>
 
         <section class="blocflex">
-
-
             <?php if(have_posts()):
+                $id_premiere_image = 0;
                 while (have_posts()): the_post(); 
                     $la_categorie = '4w4';
+                    if (in_category('cours')){
+                        $la_categorie = 'cours';}                    
                     if (in_category('galerie')){
                         $la_categorie = 'galerie';}
                     get_template_part("template-parts/categorie",$la_categorie);
                endwhile; 
              endif; ?>
-
         </section>
 
     
