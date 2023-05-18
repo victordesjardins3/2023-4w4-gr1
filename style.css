@@ -638,7 +638,7 @@ a:visited {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    min-height: 100vh;
+    min-height: 50vh;
   }
 }
 
@@ -720,6 +720,32 @@ a:visited {
 .blocflex__figure img {
   display: block;
   width: 150px;
+}
+
+.bloc__viewport li::before {
+  content: "";
+  background: transparent;
+  border-radius: 0;
+  padding-inline: 0;
+  margin-inline-end: 0;
+}
+
+.bloc__viewport #menu-bloc-archive {
+  background-color: transparent;
+}
+
+.bloc__viewport #menu-bloc-archive li {
+  background-color: rgb(231, 231, 231);
+  width: 50%;
+  margin: auto auto;
+  margin-bottom: 3rem;
+  border: 2px solid rgb(0, 222, 222);
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.bloc__viewport h2 {
+  color: rgb(0, 222, 222);
 }
 
 .recherche_section {
@@ -955,7 +981,6 @@ a:visited {
 }
 
 #menu-evenement {
-  height: 60%;
   background-color: transparent;
 }
 
