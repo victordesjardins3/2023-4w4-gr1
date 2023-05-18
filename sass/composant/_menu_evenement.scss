@@ -22,6 +22,8 @@
             border: 1px solid #aaa;
             height: 100px;
             margin: 0.5rem;
+            transform: scale(1);
+            transition: ease-in-out 0.5s;
 
             a {
                 display: flex;
@@ -43,6 +45,10 @@
             }
         }
     }
+}
+
+.menu-evenement-container .menu-item:hover {
+    transform: scale(1.08);
 }
 
 #menu-evenement {
@@ -93,6 +99,15 @@
 
 #menu-bloc-archive {
     border: none;
+}
+
+#menu-bloc-archive li {
+    transform: scale(1);
+    transition: ease-in-out 0.5s;
+}
+
+#menu-bloc-archive li:hover {
+    transform: scale(1.15);
 }
 
 
