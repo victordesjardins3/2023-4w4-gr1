@@ -34,13 +34,25 @@
 }
 
 .blocflex .blocflex__article p {
-    width: 100%;
+    
+    width: 80%;
     font-size: 1.4rem;
+    text-align: center;
+
+    @media screen and (min-width: $largeur__bureau) {
+        width: 100%;
+        
+    }
 }
 
 .blocflex .blocflex__article h5 {
     text-align: center;
     font-size: 2rem;
+}
+
+.blocflex .blocflex__article h6 {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .blocflex__galerie {
@@ -119,4 +131,7 @@
 
 .bloc__viewport h2 {
     color: rgb(0, 222, 222);
+    font-size: 3rem;
+
+    
 }

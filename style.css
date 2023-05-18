@@ -630,6 +630,25 @@ a:visited {
   scale: 1.2;
 }
 
+.site__main h1 {
+  font-size: 2.5rem;
+}
+@media screen and (min-width: 800px) {
+  .site__main h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.site__main h2 {
+  font-size: 1.5rem;
+  color: rgb(0, 227, 227);
+}
+@media screen and (min-width: 800px) {
+  .site__main h2 {
+    font-size: 2.5rem;
+  }
+}
+
 .blocflex {
   display: block;
 }
@@ -666,13 +685,24 @@ a:visited {
 }
 
 .blocflex .blocflex__article p {
-  width: 100%;
+  width: 80%;
   font-size: 1.4rem;
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  .blocflex .blocflex__article p {
+    width: 100%;
+  }
 }
 
 .blocflex .blocflex__article h5 {
   text-align: center;
   font-size: 2rem;
+}
+
+.blocflex .blocflex__article h6 {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .blocflex__galerie {
@@ -746,6 +776,7 @@ a:visited {
 
 .bloc__viewport h2 {
   color: rgb(0, 222, 222);
+  font-size: 3rem;
 }
 
 .recherche_section {
