@@ -21,13 +21,14 @@
 
         </section>
 
-        <section class=bloc__viewport>
+        <section class="bloc__viewport">
 
         <h2>Notre mission</h2>
 
         <?php wp_nav_menu(array(
             "menu"=>"bloc-archive",
             "container"=>"nav"
+            
         )); ?>
 
         </section>

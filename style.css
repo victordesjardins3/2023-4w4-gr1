@@ -689,11 +689,6 @@ a:visited {
   font-size: 1.4rem;
   text-align: center;
 }
-@media screen and (min-width: 800px) {
-  .blocflex .blocflex__article p {
-    width: 100%;
-  }
-}
 
 .blocflex .blocflex__article h5 {
   text-align: center;
@@ -971,6 +966,17 @@ a:visited {
   }
 }
 
+.img__archive {
+  background-image: url(https://static.wikia.nocookie.net/dragonball/images/d/d3/GohanInHighSchool_2.jpg/revision/latest?cb=20110526224011);
+}
+
+.archive__cours .img__archive {
+  background-image: url(https://static.wikia.nocookie.net/dragonball/images/d/d3/GohanInHighSchool_2.jpg/revision/latest?cb=20110526224011);
+}
+
+.menu-evenement-container {
+  margin: auto auto;
+}
 .menu-evenement-container .menu {
   display: block;
   width: 60%;
@@ -1046,6 +1052,8 @@ a:visited {
   margin-bottom: 3rem;
   margin-top: 3rem;
   border: red 1px solid;
+  background-color: rgb(231, 231, 231);
+  padding: 2rem;
 }
 
 .site__main h1 {

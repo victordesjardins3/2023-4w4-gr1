@@ -1,6 +1,6 @@
 .menu-evenement-container { //nav
 
-    
+    margin: auto auto;
 
     .menu { //ul
 
@@ -81,6 +81,8 @@
     margin-bottom: 3rem;
     margin-top: 3rem;
     border: red 1px solid;
+    background-color: rgb(231, 231, 231);
+    padding: 2rem;
 }
 
 .site__main h1 {
@@ -88,3 +90,5 @@
     text-align: center;
     margin-top: 3rem;
 }
+
+
