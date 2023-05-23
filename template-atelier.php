@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template name: Evenement
+ * Template name: Atelier
  */
 
 ?>
@@ -13,10 +13,11 @@ if ( have_posts() ) : the_post(); ?>
 <?php the_post_thumbnail('medium'); ?>
 <h1><?= get_the_title(); ?></h1>
 <?php the_content();?>
-<p>L'adresse de l'evénement: <?php the_field('adresse'); ?></p>
-<p>La date et l'heure de l'événement: <?php the_field('date_et_heure'); ?></p>
-<p>Organisateur de l'événement: <?php the_field('organisateur'); ?></p>
-<p>Sigle du cours: <?php the_field('sigle'); ?></p>  
+<p>Formateur : <?php the_field('formateur'); ?></p>
+<p>Heure : <?php the_field('heure_de_la_formation'); ?></p>
+<p>Date : <?php the_field('date_de_latelier'); ?></p>
+<p>Duree : <?php the_field('duree'); ?></p> 
+<p>Local : <?php the_field('local'); ?></p> 
 <?php endif;?>
 </main><!-- #main -->
 <?php
