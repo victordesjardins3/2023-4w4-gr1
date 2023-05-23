@@ -131,3 +131,19 @@
 
     
 }
+
+
+
+.bloc__atelier ul {
+    display: block;
+    
+    @media screen and (min-width: $largeur__bureau) {
+        display: flex;
+        flex: 1 0 300px;
+        
+    }
+}
+
+.bloc__atelier img {
+    width: 200px;
+}

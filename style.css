@@ -772,6 +772,20 @@ a:visited {
   font-size: 3rem;
 }
 
+.bloc__atelier ul {
+  display: block;
+}
+@media screen and (min-width: 800px) {
+  .bloc__atelier ul {
+    display: flex;
+    flex: 1 0 300px;
+  }
+}
+
+.bloc__atelier img {
+  width: 200px;
+}
+
 .recherche_section {
   display: flex;
   flex-wrap: nowrap;
