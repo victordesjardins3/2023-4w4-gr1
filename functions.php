@@ -77,7 +77,8 @@ function perso_menu_item_title($title, $item, $args) {
 /*********** Ajouter description et images au post ***********/
 function add_menu_description_and_thumbnail( $item_output, $item, $depth, $args ) {
     if ( 'evenement' == $args->menu ||
-         'bloc-archive' == $args->menu)
+         'bloc-archive' == $args->menu ||
+         'bloc-atelier' == $args->menu)
     {
         $post_thumbnail_id = get_post_thumbnail_id( $item->object_id );
         if ( $post_thumbnail_id ) {
