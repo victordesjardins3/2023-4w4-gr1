@@ -33,6 +33,18 @@
 
         </section>
 
+        <h2>Les évènements à venir</h2>
+        <section class="bloc__atelier">
+
+            <?php  wp_nav_menu(array( 
+                    "menu" => "atelier",
+                    "container" => "nav",
+                    
+
+            )); ?>
+
+        </section>
+
         <section class="blocflex">
             <?php if(have_posts()):
                 $id_premiere_image = 0;
