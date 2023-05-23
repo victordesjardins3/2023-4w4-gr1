@@ -1,21 +1,20 @@
-# TP2
+# Épreuve-finale
 ## 4W4-Conception d'interfaces et développement Web
 ### Auteur : Victor Desjardins
 #### Compte pour 20% de la note finale
 
 ##### Objectifs
-- Les éléments suivant doivent être modifiés, améliorés et/ou intégrés ;
-    - front-page.php
-    - sidebar
-    - footer
-    - affichage mobile
-    - thème général
-    - carrousel
-    - modèle category-cours doit synthétiser l'offre de cours
-    - utiliser des images mise-en-avant et fonction the_posts_thumbnail()
-    - produire des nouveaux modèles et templates
+- Continuer la version du TP2 et ajouter des modifications en fonction de l'examen finale ;
+    - Produire 5 pages qui présentent des ateliers à venir
+        - Image mise à l'avant
+        - 5 champs personnalisés : formateur, heure, date, local, durée
+        - zone atelier-aside
     
-- 20 commits sur TP1 de GitHub
+- Confectionner un menu pour présenter les pages ateliers
+    - avec animation de survole
+    - menu dans contenir : titre, description, image
+    
+- 5 commits sur epreuve-finale de GitHub
 - Déploiment du site sur SiteGround
 
 
