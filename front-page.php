@@ -33,7 +33,7 @@
 
         </section>
 
-        <h2>Les évènements à venir</h2>
+        <h2>Nos ateliers</h2>
         <section class="bloc__atelier">
 
             <?php  wp_nav_menu(array( 

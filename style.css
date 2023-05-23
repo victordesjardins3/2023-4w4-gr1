@@ -772,6 +772,10 @@ a:visited {
   font-size: 3rem;
 }
 
+.bloc__atelier {
+  margin-bottom: 5rem;
+}
+
 .bloc__atelier ul {
   display: block;
   justify-content: space-between;
@@ -798,6 +802,11 @@ a:visited {
   border-radius: 0;
   padding-inline: 0;
   margin-inline-end: 0;
+}
+
+.bloc__atelier li {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .recherche_section {

@@ -132,7 +132,9 @@
     
 }
 
-
+.bloc__atelier {
+    margin-bottom: 5rem;
+}
 
 .bloc__atelier ul {
     display: block;
@@ -160,3 +162,8 @@
     padding-inline: 0;
     margin-inline-end: 0;
 } 
+
+.bloc__atelier li {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
