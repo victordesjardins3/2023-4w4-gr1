@@ -774,16 +774,30 @@ a:visited {
 
 .bloc__atelier ul {
   display: block;
+  justify-content: space-between;
 }
 @media screen and (min-width: 800px) {
   .bloc__atelier ul {
     display: flex;
     flex: 1 0 300px;
+    flex-wrap: wrap;
   }
 }
 
 .bloc__atelier img {
   width: 200px;
+}
+
+.bloc__atelier .title {
+  display: none;
+}
+
+.bloc__atelier li::before {
+  content: "";
+  background: transparent;
+  border-radius: 0;
+  padding-inline: 0;
+  margin-inline-end: 0;
 }
 
 .recherche_section {
